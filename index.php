@@ -1,4 +1,4 @@
-<h1>Welcome tyo my first PHP app v1.0!</h1>
+<h1>Welcome tyo my first PHP app!</h1>
 
 links:<br/>
 
