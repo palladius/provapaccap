@@ -11,3 +11,5 @@ handlers:
   script: hello.php
 - url: /phpinfo
   script: phpinfo.php
+- url: /favicon.ico
+  script: favicon.ico
