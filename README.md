@@ -11,6 +11,13 @@ My data
 AppName: provaphp
 App Url: http://provapaccap.appspot.com/
 
+
+URLs
+----
+
+Try this page (try the Session vars):
+https://developers.google.com/appengine/docs/php/
+
 Thanks
 ======
 
