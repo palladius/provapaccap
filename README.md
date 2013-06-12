@@ -13,4 +13,6 @@ Thanks
 ======
 
 - My mum
-- proppy@
+- proppy
+- myself
+- Kicco, who in 2003 said that in 10 years definitely PHP would never be used, and Zope would be used instead. ;)
