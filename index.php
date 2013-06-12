@@ -1,8 +1,8 @@
-
-
-<h1>Welcome tyo my first PHP app!</h1>
+<h1>Welcome tyo my first PHP app v1.0!</h1>
 
 links:<br/>
 
-<a href='/hello.php'>hello</a> <br/>
-<a href='/phpinfo.php'>phpinfo</a> <br/>
+<a href='/hello'>hello</a> <br/>
+<a href='/phpinfo'>phpinfo</a> <br/>
+
+<?php include 'footer.php'; ?>
