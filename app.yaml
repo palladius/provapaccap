@@ -1,0 +1,8 @@
+application: provapaccap
+version: 1
+runtime: php
+api_version: 1
+
+handlers:
+- url: /hello
+  script: hello.php
