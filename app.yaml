@@ -4,12 +4,19 @@ version: 3
 runtime: php
 api_version: 1
 
+# Tips(y): http://gaeforphp-blog.appspot.com/
+default_expiration: "1d"
+
 handlers:
+- url: /(.*\.(ico$|jpg$|png$|gif$))
+  static_files: static/\1
+  upload: static/(.*\.(ico$|jpg$|png$|gif$))
+  application_readable: true
 - url: /
   script: index.php
 - url: /hello
   script: hello.php
 - url: /phpinfo
   script: phpinfo.php
-- url: /favicon.ico
-  script: favicon.ico
+#- url: /favicon.ico
+#  script: favicon.ico
