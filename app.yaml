@@ -1,8 +1,13 @@
+# https://appengine.google.com/dashboard/nonedeployed?app_id=s~provapaccap
 application: provapaccap
-version: 1
+version: 3
 runtime: php
 api_version: 1
 
 handlers:
+- url: /
+  script: index.php
 - url: /hello
   script: hello.php
+- url: /phpinfo
+  script: phpinfo.php
