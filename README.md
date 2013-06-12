@@ -1,13 +1,15 @@
 Synopsis
 ========
 
-This is about installing GAE+PHP+test.
+This is my first test GAE+PHP.
+
+Anything goes, really.
 
 My data
 =======
 
 AppName: provaphp
-provaphp: 
+App Url: http://provapaccap.appspot.com/
 
 Thanks
 ======
