@@ -1,4 +1,4 @@
-<?php include 'lib/_header.php'; ?>
+<?php include 'inc/_header.php'; ?>
 
 
 <h1>PHP Info3</h1>

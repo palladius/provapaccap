@@ -1,3 +1,5 @@
+<?php include 'inc/header.php'; ?>
+
 <h1>Hello</h1>
 
 Obscure PHP Code follows: <br/>
