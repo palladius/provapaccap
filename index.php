@@ -8,4 +8,6 @@ Links:<br/>
 - <a href='/hello'>hello</a> <br/>
 - <a href='/phpinfo'>phpinfo</a> <br/>
 
+<img src='riccardo_lisbon.jpg' />
+
 <?php include 'inc/footer.php'; ?>

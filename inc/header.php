@@ -6,7 +6,8 @@
 <body>
 <div align='center' class='header' >
 [
- <a href='/hello'>hello</a> <br/>
- <a href='/phpinfo'>phpinfo</a> <br/>
+ <a href='/'>index</a> |
+ <a href='/hello'>hello</a> |
+ <a href='/phpinfo'>phpinfo</a> 
 ]
 </div>

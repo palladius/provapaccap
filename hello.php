@@ -10,4 +10,4 @@ Obscure PHP Code follows: <br/>
 
 PHP VER: <?php phpversion() ?>
 
-<?php include 'footer.php'; ?>
+<?php include 'inc/footer.php'; ?>

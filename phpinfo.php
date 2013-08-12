@@ -1,4 +1,4 @@
-<?php include 'inc/_header.php'; ?>
+<?php include 'inc/header.php'; ?>
 
 
 <h1>PHP Info3</h1>
@@ -12,4 +12,4 @@ print_r (phpinfo());
 
 ?>
 
-<?php include 'footer.php'; ?>
+<?php include 'inc/footer.php'; ?>

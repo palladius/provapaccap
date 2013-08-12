@@ -9,7 +9,7 @@
       file_get_contents('VERSION');
     ?>
     )
-    <img src='riccardo.jpg' />
-    <img src='images/riccardo.jpg' />
+    
+    <img src='images/scrambled_eggs.jpg' height='50' />
 </div>
 </body>

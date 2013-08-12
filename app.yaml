@@ -2,7 +2,7 @@
 # locally: dev~provapaccap
 # remote: http://provapaccap.appspot.com/
 application: provapaccap
-version: 7
+version: 8
 runtime: php
 api_version: 1
 
