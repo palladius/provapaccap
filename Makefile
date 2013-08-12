@@ -5,3 +5,5 @@ run-local:
 test:
 	echo TODO somarone
 
+push:
+	git push

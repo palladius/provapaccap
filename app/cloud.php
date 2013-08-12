@@ -12,17 +12,24 @@ file_put_contents("gs://rcarlesso/README.txt", "README", 0, $ctx);
 
 <h2>Cloud SQL</h2>
 
-TODO.
 
 <a href='https://developers.google.com/appengine/docs/php/cloud-sql/' >Look here</a>.
 
+Output: <br/>
+
+<pre class='debug' >
 <?php
 # http://stackoverflow.com/questions/17025605/google-app-engine-php-and-cloud-sql
 
-    define('MYSQL_HOST', "/cloudsql/sample-project:sample-sql-instance");
-    define('MYSQL_LOGIN', "sample-login");
-    define('MYSQL_PASSWORD', "sample-pass");
-    define('MYSQL_DB', "sample-db");
+#  CREATE USER 'riccardo'@'localhost' IDENTIFIED BY 'attenzione_pubblicissima';
+#  GRANT ALL PRIVILEGES ON * . * TO 'riccardo'@'localhost';
+#  FLUSH PRIVILEGES;
+
+# Creato DB google.com:discoproject:provapaccap attaccato alla app 'provapaccap'
+    define('MYSQL_HOST', "/cloudsql/google.com:discoproject:provapaccap");
+    define('MYSQL_LOGIN', "riccardo");
+    define('MYSQL_PASSWORD', "attenzione_pubblicissima");
+    define('MYSQL_DB', "riccardo_test"); # provapaccap
 
     echo "\nfunction_exists('mysql_connect'):\n"; 
     var_dump(function_exists('mysql_connect'));
@@ -43,3 +50,4 @@ TODO.
     }
 
 ?>
+</pre>
