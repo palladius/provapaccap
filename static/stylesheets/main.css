@@ -2,3 +2,16 @@ body {
   font-family: Verdana, Helvetica, sans-serif;
   background-color: #DDDDDD;
 }
+
+debug {
+    color: red ;
+    background-color: pink;
+}
+
+h1 {
+    color: navy;
+}
+
+h2 {
+    color: orange;
+}

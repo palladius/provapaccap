@@ -8,6 +8,8 @@
 [
  <a href='/'>index</a> |
  <a href='/hello'>hello</a> |
+ <a href='/cloud'>cloud</a> |
+ <a href='/posts'>posts</a> |
  <a href='/phpinfo'>phpinfo</a> 
 ]
 </div>

@@ -1,7 +1,6 @@
-<?php include 'inc/header.php'; ?>
+<h1>PHP Info</h1>
 
-
-<h1>PHP Info3</h1>
+Sarebbe carino toglierlo! ;-)
 
 <?php
 
@@ -11,5 +10,3 @@ echo phpinfo();
 print_r (phpinfo());
 
 ?>
-
-<?php include 'inc/footer.php'; ?>

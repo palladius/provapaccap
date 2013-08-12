@@ -10,14 +10,18 @@ api_version: 1
 default_expiration: "1d"
 
 handlers:
-- url: /(.*\.(ico$|jpg$|png$|gif$))
+- url: /(.*\.(ico$|jpg$|png$|gif$|css$))
   static_files: static/\1
-  upload: static/(.*\.(ico$|jpg$|png$|gif$))
+  upload: static/(.*\.(ico$|jpg$|png$|gif$|css$))
   application_readable: true
 - url: /
   script: index.php
 - url: /hello
   script: hello.php
+- url: /cloud
+  script: cloud.php
+- url: /posts
+  script: posts.php
 - url: /phpinfo
   script: phpinfo.php
 - url: /static/stylesheets
