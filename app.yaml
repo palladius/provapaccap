@@ -2,7 +2,7 @@
 # locally: dev~provapaccap
 # remote: http://provapaccap.appspot.com/
 application: provapaccap
-version: 8
+version: 9
 runtime: php
 api_version: 1
 
@@ -18,8 +18,10 @@ handlers:
   script: app/index.php
 - url: /hello
   script: app/hello.php
-- url: /cloud
-  script: app/cloud.php
+- url: /cloud_storage
+  script: app/cloud_storage.php
+- url: /cloud_sql
+  script: app/cloud_sql.php
 - url: /posts
   script: app/posts.php
 - url: /phpinfo

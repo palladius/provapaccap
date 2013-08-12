@@ -1,15 +1,3 @@
-<h2>Cloud Storage</h2>
-
-See from <a href='https://developers.google.com/appengine/docs/php/googlestorage/' >this docs</a>.
-
-<?php
-
-$options = [ "gs" => [ "Content-Type" => "text/plain" ]];
-$ctx = stream_context_create($options);
-file_put_contents("gs://rcarlesso/README.txt", "README", 0, $ctx);
-
-?>
-
 <h2>Cloud SQL</h2>
 
 
@@ -29,7 +17,8 @@ Output: <br/>
     define('MYSQL_HOST', "/cloudsql/google.com:discoproject:provapaccap");
     define('MYSQL_LOGIN', "riccardo");
     define('MYSQL_PASSWORD', "attenzione_pubblicissima");
-    define('MYSQL_DB', "riccardo_test"); # provapaccap
+    #define('MYSQL_DB', "riccardo_test"); # 
+    define('MYSQL_DB', "provapaccap");
 
     echo "\nfunction_exists('mysql_connect'):\n"; 
     var_dump(function_exists('mysql_connect'));
