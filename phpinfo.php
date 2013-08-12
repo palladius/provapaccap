@@ -1,3 +1,6 @@
+<?php include 'lib/_header.php'; ?>
+
+
 <h1>PHP Info3</h1>
 
 <?php
@@ -8,4 +11,5 @@ echo phpinfo();
 print_r (phpinfo());
 
 ?>
+
 <?php include 'footer.php'; ?>

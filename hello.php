@@ -6,4 +6,6 @@ Obscure PHP Code follows: <br/>
   echo 'Hello, World!';
 ?>
 
+PHP VER: <?php phpversion() ?>
+
 <?php include 'footer.php'; ?>

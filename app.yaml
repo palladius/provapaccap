@@ -1,6 +1,8 @@
 # https://appengine.google.com/dashboard/nonedeployed?app_id=s~provapaccap
+# locally: dev~provapaccap
+# remote: http://provapaccap.appspot.com/
 application: provapaccap
-version: 3
+version: 5
 runtime: php
 api_version: 1
 
@@ -18,5 +20,7 @@ handlers:
   script: hello.php
 - url: /phpinfo
   script: phpinfo.php
+- url: /static/stylesheets
+  static_dir: stylesheets
 #- url: /favicon.ico
 #  script: favicon.ico

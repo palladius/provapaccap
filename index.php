@@ -1,3 +1,5 @@
+<?php include 'lib/_header.php'; ?>
+
 <h1>Welcome tyo my first PHP apps!</h1>
 
 links:<br/>
