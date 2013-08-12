@@ -15,15 +15,15 @@ handlers:
   upload: static/(.*\.(ico$|jpg$|png$|gif$|css$))
   application_readable: true
 - url: /
-  script: index.php
+  script: app/index.php
 - url: /hello
-  script: hello.php
+  script: app/hello.php
 - url: /cloud
-  script: cloud.php
+  script: app/cloud.php
 - url: /posts
-  script: posts.php
+  script: app/posts.php
 - url: /phpinfo
-  script: phpinfo.php
+  script: app/phpinfo.php
 - url: /static/stylesheets
   static_dir: stylesheets
 #- url: /favicon.ico
