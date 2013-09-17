@@ -2,7 +2,7 @@
 # locally: dev~provapaccap
 # remote: http://provapaccap.appspot.com/
 application: provapaccap
-version: 9
+version: 1.4
 runtime: php
 api_version: 1
 
@@ -26,6 +26,8 @@ handlers:
   script: app/posts.php
 - url: /phpinfo
   script: app/phpinfo.php
+- url: /redirect
+  script: app/redirect.php
 - url: /static/stylesheets
   static_dir: stylesheets
 #- url: /favicon.ico
