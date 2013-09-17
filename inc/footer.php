@@ -4,10 +4,12 @@
     Code available in: 
     <a href='https://github.com/palladius/provapaccap'>https://github.com/palladius/provapaccap</a>
 
-    v<b>$VERSION</b> / 1.4 (or better:  
+    1.? (or better:  
+    v<b>
     <?php 
-      file_get_contents('VERSION');
+      file_get_contents('../VERSION');
     ?>
+    </b>
     )
     
     <img src='images/scrambled_eggs.jpg' height='50' />

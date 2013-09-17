@@ -1,11 +1,25 @@
 <?php
 
+// functions TODO put into _functions.php
+function startsWith($haystack, $needle) {
+    return $needle === "" || strpos($haystack, $needle) === 0;
+}
+function endsWith($haystack, $needle) {
+    return $needle === "" || substr($haystack, -strlen($needle)) === $needle;
+}
+
 // from redirect to hello
-if($_SERVER['REQUEST_URI'] =="/redirect") {
+if($_SERVER['REQUEST_URI'] == "/redirect") {
   header( "HTTP/1.1 301 Moved Permanently" );
   header( "Location: /index?note=from_redirect" );
   exit;
 }
+if (startsWith($_SERVER['REQUEST_URI'],'/redirec')) {
+  header( "HTTP/1.1 301 Moved Permanently" );
+  header( "Location: /index?note=starts_with_redirect" );
+  exit;
+}
+
 ?>
 <html>
 <head>

@@ -20,7 +20,7 @@ handlers:
   script: app/index.php
 - url: /home
   script: app/index.php
-- url: /redirect
+- url: /redirec.*
   script: app/redirect.php
 - url: /hello
   script: app/hello.php
