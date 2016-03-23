@@ -19,7 +19,9 @@ Vedi tutti gli oggetti di tipo Post
     foreach($db->query($sql) as $row) {
 ?>
     <h2 class='posts_title' >
-        <? print $row['title'] ?>
+      <a href="/posts/<? print $row['title'] ?>" >
+         <? print $row['title'] ?>
+      </a>
     </h2>
     <em class='posts_body'>
         <? print  $row['body'] ?>

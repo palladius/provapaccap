@@ -30,6 +30,8 @@ handlers:
   script: app/cloud_sql.php
 - url: /posts
   script: app/posts.php
+- url: /posts/.*
+  script: app/posts-view.php
 - url: /phpinfo
   script: app/phpinfo.php
 - url: /static/stylesheets

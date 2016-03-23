@@ -23,6 +23,12 @@ Cloud
 
 * On 2016-03-23, linekd this to project "provapaccap" (pn 347062052652).
 
+TODOs
+-----
+
+* P3. Move DB away from `/cloudsql/google.com:discoproject:provapaccap` into newly created local one.
+* Use ID in Posts url rather than title itself (current is just a patch!)
+
 Thanks
 ======
 
