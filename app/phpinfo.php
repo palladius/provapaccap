@@ -1,6 +1,6 @@
 <h1>PHP Info</h1>
 
-Sarebbe carino toglierlo! ;-)
+Tolto da link esplicto nell'header ;-)
 
 <?php
 

@@ -34,7 +34,6 @@ if (startsWith($_SERVER['REQUEST_URI'],'/redirec')) {
  <a href='/cloud_storage'>GCS</a> |
  <a href='/cloud_sql'>CSql</a> |
  <a href='/posts'>posts</a> |
- <a href='/redirect'>redirect</a> |  
- <a href='/phpinfo'>phpinfo</a> 
+ <a href='/redirect'>redirect</a>
 ]
 </div>
