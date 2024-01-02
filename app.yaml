@@ -1,9 +1,9 @@
 # https://appengine.google.com/dashboard/nonedeployed?app_id=s~provapaccap
 # locally: dev~provapaccap
 # remote: http://provapaccap.appspot.com/
-application: provapaccap
-version: 104
-runtime: php
+#application: provapaccap
+#version: 104
+runtime: php55
 api_version: 1
 
 # Tips(y): http://gaeforphp-blog.appspot.com/
